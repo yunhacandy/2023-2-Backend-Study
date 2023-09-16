@@ -40,7 +40,7 @@
 자바의 객체 지향 
 ---
 * 클래스
-'''
+\\\
 public class Person {
     // 맴버 변수 (객체가 가질 수 있는 속성)
     private int age;
@@ -75,7 +75,7 @@ public class Person {
         System.out.println("hello");
     }
 }
-'''
+\\\s
 
 * 캡슐화
 private으로 선언하여 외부에서 접근할 수 없도록 하고   
