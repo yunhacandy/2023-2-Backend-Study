@@ -105,6 +105,3 @@ class HarryPotter extends Person {
 
 * 추상화   
 추상 메서드를 통해 다양한 객체를 다룰 수 있다.
-
-코딩 과제 제출
-===
