@@ -1,5 +1,5 @@
 ## WIL2
-1. HTTP에 대해 정리하라
+HTTP에 대해 정리하라
 ---
 * HTTP란?   
  서로 다른 시스템들 사이에서 통신을 주고 받게 해주는 application 계층의 protocol로, HyperText Transfer Protocol의 약자이다.
@@ -25,12 +25,19 @@
  - PUT: 리소스를 대체, 해당 리소스가 없으면 생성
  - PATCH: 리소스 부분 변경
  - DELETE: 리소스 삭제
+ - HEAD: 메시지 부분을 제외하고, 상태 줄과 헤더만 반환
+ - OPTIONS: 대상 리소스에 대한 통신 기능 옵션을 설명
+ - CONNECT: 대상 리소스로 식별되는 서버에 대한 터널 설정
+ - TRACE: 대상 리소스에 대한 경로를 따라 메시지 루프백 테스트를 수행
+
+ * HTTP 상태 코드   
  
 
 
 
-2. HTTPS가 무엇인지 정리하고, HTTP와 비교하라
+
+HTTPS가 무엇인지 정리하고, HTTP와 비교하라
 ---
 
-3. 아래 API에 대한 RESTful한 URL를 설계하라.
+아래 API에 대한 RESTful한 URL를 설계하라.
 ---
