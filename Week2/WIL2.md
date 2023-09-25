@@ -54,7 +54,7 @@ REST 원칙은 아래와 같다.
 - 자체 표현 구조   
 
 아래 API에 대한 RESTful한 URL을 설계하라.
-===
+---
 1. 이벤트 목록 조회: GET /events
 2. 이벤트 조회: GET /events/{eventId}
 3. 이벤트 등록: POST /events
