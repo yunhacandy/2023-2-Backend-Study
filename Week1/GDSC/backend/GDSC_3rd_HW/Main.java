@@ -1,4 +1,4 @@
-package org.example;
+package GDSC.backend.GDSC_3rd_HW;
 
 public class Main {
     public static void main(String[] args) {
