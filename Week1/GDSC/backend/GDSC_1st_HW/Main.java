@@ -1,4 +1,4 @@
-package GDSC.backend.GDSC_3rd_HW;
+package GDSC.backend.GDSC_1st_HW;
 
 public class Main {
     public static void main(String[] args) {

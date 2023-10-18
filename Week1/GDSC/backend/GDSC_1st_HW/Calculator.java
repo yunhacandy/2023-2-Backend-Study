@@ -1,4 +1,4 @@
-package GDSC.backend.GDSC_3rd_HW;
+package GDSC.backend.GDSC_1st_HW;
 
 public interface Calculator {
     int plus(int a, int b);
