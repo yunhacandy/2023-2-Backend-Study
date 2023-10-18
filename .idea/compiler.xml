@@ -5,7 +5,12 @@
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Week3.main" target="20" />
+      <module name="Week3.test" target="20" />
+      <module name="Week4" target="20" />
       <module name="Week5" target="20" />
+      <module name="Week5.main" target="20" />
+      <module name="Week5.test" target="20" />
     </bytecodeTargetLevel>
   </component>
 </project>

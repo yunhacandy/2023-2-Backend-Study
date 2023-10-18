@@ -10,6 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/Week3" />
+            <option value="$PROJECT_DIR$/Week3/Week3" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -20,16 +21,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/Week4" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="delegatedBuild" value="false" />
-        <option name="testRunner" value="PLATFORM" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Week5" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/Week5" />
           </set>
         </option>
       </GradleProjectSettings>
