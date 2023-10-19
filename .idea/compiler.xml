@@ -5,6 +5,12 @@
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="GDSC_3rd_HW" target="11" />
+      <module name="GDSC_3rd_HW.main" target="11" />
+      <module name="GDSC_3rd_HW.test" target="11" />
+      <module name="untitled" target="20" />
+      <module name="untitled.main" target="20" />
+      <module name="untitled.test" target="20" />
       <module name="Week3.main" target="20" />
       <module name="Week3.test" target="20" />
       <module name="Week3.Week3" target="20" />
