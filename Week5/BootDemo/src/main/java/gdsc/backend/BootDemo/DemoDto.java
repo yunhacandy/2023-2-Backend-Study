@@ -2,8 +2,6 @@ package gdsc.backend.BootDemo;
 
 import lombok.Getter;
 
-/** DemoDto.java **/
-
 @Getter
 public class DemoDto {
     private Long id;

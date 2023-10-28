@@ -6,8 +6,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-/** DemoController.java **/
-
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/demo")
@@ -16,7 +14,7 @@ public class DemoController {
 
     @GetMapping("/demoEntities")
     public ResponseEntity<List<DemoDto>> getDemoEntities() {
-        return ResponseEntity.ok().body(demoService.getDemoEntitys());
+        return ResponseEntity.ok().body(demoService.getDemoEntities());
     }
 
     @PostMapping("/demoEntities")

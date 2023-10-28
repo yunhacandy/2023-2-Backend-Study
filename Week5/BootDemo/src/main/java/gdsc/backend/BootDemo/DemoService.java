@@ -6,8 +6,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-/** DemoService.java **/
-
 @Service
 public class DemoService {
     private final List<DemoEntity> demoEntities = new ArrayList<>(Arrays.asList(
@@ -27,5 +25,4 @@ public class DemoService {
     public void addDemoEntity(DemoDto demoDto) {
         demoEntities.add(new DemoEntity(demoDto.getId(), demoDto.getName()));
     }
-}
 }
