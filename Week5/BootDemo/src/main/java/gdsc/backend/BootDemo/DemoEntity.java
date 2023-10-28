@@ -1,6 +1,9 @@
 package gdsc.backend.BootDemo;
 
+import lombok.Getter;
+
 //getId, getName
+@Getter
 public class DemoEntity {
     private Long id;
     private String name;
@@ -10,11 +13,4 @@ public class DemoEntity {
         this.name = name;
     }
 
-    public Long getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
-    }
 }

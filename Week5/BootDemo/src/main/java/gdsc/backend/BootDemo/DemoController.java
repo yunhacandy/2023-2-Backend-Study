@@ -3,13 +3,13 @@ package gdsc.backend.BootDemo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/demo")
 public class DemoController {
+
     private final DemoService demoService;
 
     @GetMapping("/demoEntities")

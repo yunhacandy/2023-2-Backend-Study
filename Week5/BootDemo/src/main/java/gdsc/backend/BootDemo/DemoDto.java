@@ -4,6 +4,7 @@ import lombok.Getter;
 
 @Getter
 public class DemoDto {
+
     private Long id;
     private String name;
 
