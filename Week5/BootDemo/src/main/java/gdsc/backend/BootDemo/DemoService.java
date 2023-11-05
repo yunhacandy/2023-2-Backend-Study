@@ -25,4 +25,12 @@ public class DemoService {
     public void addDemoEntity(DemoDto demoDto) {
         demoEntities.add(new DemoEntity(demoDto.getId(), demoDto.getName()));
     }
+
+    public DemoDto getDemoEntity(Long id) {
+        DemoEntity foundEntity = demoEntities.stream()
+                .filter(demoEntity -> demoEntity.getId().equals(id))
+                .findFirst()
+                .orElseThrow(RuntimeException::new);
+        return new DemoDto(foundEntity.getId(), foundEntity.getName());
+    }
 }

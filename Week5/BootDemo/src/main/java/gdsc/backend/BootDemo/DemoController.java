@@ -21,4 +21,10 @@ public class DemoController {
     public void getDemoEntities(@RequestBody DemoDto demoDto) {
         demoService.addDemoEntity(demoDto);
     }
+
+    @GetMapping("/demoEntities/{id}")
+    public ResponseEntity<DemoDto> getDemoEntities(@RequestBody DemoDto demoDto, @PathVariable("id") Long id)
+    {
+        return ResponseEntity.ok().body(demoService.getDemoEntity(id));
+    }
 }
